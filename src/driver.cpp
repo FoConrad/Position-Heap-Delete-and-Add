@@ -32,7 +32,8 @@ int main ()
       {
 	  cout << " Type your text : ";
 	  cin>>typeInput;
-          int inputLength = strlen(typeInput);
+          // Unused variable commented out for now.
+          // int inputLength = strlen(typeInput);
    	  cout << "\n\nBuilding position heap ...\n\n";
           if (H) delete H;
 	  H = new heap (typeInput);
