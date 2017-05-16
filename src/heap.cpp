@@ -514,8 +514,8 @@ mylist *heap::pruneCandidates(char *suffix, int suffixLength,
                 if   (
                       // h-'offset' is an ancestor of X_i that is an occurrence
                       //   of X_i
-                      isDescendant (pathEndNode, offsetNode) 
-                         &&(isDescendant(maxReach[offsetNode], pathEndNode))
+                      (isDescendant (pathEndNode, offsetNode) 
+                         &&(isDescendant(maxReach[offsetNode], pathEndNode)))
 
                       //OR i=j and h-'offset' is a descendant of X_j, hence
                       //  an occurrence of it that isn't an ancestor ...

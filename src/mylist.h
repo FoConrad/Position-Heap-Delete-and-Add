@@ -1,6 +1,6 @@
 /******************
-/* mylist.h:  see mylist.cpp
-/*****************/
+ * mylist.h:  see mylist.cpp
+ *****************/
 class mylist
 {
     public:
